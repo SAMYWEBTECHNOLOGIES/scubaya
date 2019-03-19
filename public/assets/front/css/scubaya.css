@@ -1,0 +1,331 @@
+@font-face {
+    font-family: Neo SBold;
+    src: url('/fonts/NeoSansBold.otf') format('woff');
+
+}
+@font-face {
+    font-family: Neo Regular;
+    src: url('/fonts/NeoSansRegular.otf') format('woff');
+}
+
+@font-face {
+    font-family: 'Glyphicons Halflings';
+    src: url('/fonts/glyphicons-halflings-regular.otf') format('woff');
+}
+
+body{
+    font-family:Neo Regular, Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    /*background: linear-gradient(180deg, #50A6D4 0%, #3789B5 100%);*/
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family:Neo SBold, Arial, 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+label{
+    color: #666666;
+}
+
+.white{
+    color: #fff;
+}
+
+.blue{
+    color: #48BBD2;
+}
+
+/*.button-blue{
+    background-color: #48BBD2;
+    border-color: #48BBD2   ;
+    padding: 3px 8px;
+}
+
+.button-blue:hover{
+    background-color: #2e82b0;
+    border-color: #2e82b0   ;
+}*/
+
+.box.box-primary {
+    border-top-color: #48BBD2;
+}
+
+.margin-top-60{
+    margin-top: 60px;
+}
+
+.margin-top-10{
+    margin-top: 10px;
+}
+
+/* merchant sign up */
+.scubaya-box-body{
+    background: #fff;
+    border-radius: 7px 7px;
+    border: 1px solid #e7e7e7;
+    box-shadow: 1px 1px 0px 0px #cdcdcd;
+}
+
+.scubaya-box-msg {
+    color: #5D5C5C;
+    padding: 0 0px 20px 0;
+    border-bottom: 1px solid #CDCDCD;
+    letter-spacing: 0.5rem;
+}
+
+.scubaya-box {
+    width: 450px;
+    margin: 2% auto;
+}
+
+.sign_up_form {
+    padding: 0 70px;
+}
+
+.sign_up_form label {
+    letter-spacing: 0.2rem;
+    font-weight: normal;
+    font-size: 12px;
+}
+
+.sign_up_form p{
+    letter-spacing: .1rem;
+}
+
+.margin-bottom-0{
+    margin-bottom: 0;
+}
+
+#dive_center_form{
+    margin: 15px 20px 0 20px;
+}
+
+.navbar-default {
+    background-color: #2e82b0;
+    border-color: #2e82b0;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #fff;
+}
+
+.btn-primary a{
+    color:#fff;
+}
+
+#DiveCenterRegistrationForm{
+    margin-top: 80px;
+}
+
+@media only screen and (max-device-width : 768px) {
+    .scubaya-box {
+        width: 395px;
+        margin: 2% auto;
+    }
+}
+
+.sign_up_message{
+    color:#2e82b0;
+}
+
+.inactiveLink {
+    pointer-events: none;
+    cursor: default;
+}
+
+.header-social-links > li > a {
+    padding: 10px;
+}
+
+
+#head-section .navbar-default{
+    background: linear-gradient(180deg, #50A6D4 0%, #3789B5 100%);
+    background-color: transparent;
+    border-color:transparent;
+}
+
+#subscribe-section label{
+    font-family: Neo Regular;
+    color: #2E82B0;
+}
+
+#subscribe-section input{
+    background: #FFFFFF;border: 1px solid #979797;border-radius: 5px;
+}
+
+#subscribe-section button{
+    font-size: 20px;background-color: #2E82B0;border-radius:0;
+}
+
+/* cards section css */
+.card {
+    font-size: 1em;
+    overflow: hidden;
+    padding: 0;
+    border: none;
+    border-radius: .28571429rem;
+    box-shadow: 0 1px 3px 0 #d4d4d5, 0 0 0 1px #d4d4d5;
+}
+
+.card-block {
+    font-size: 1em;
+    position: relative;
+    margin: 0;
+    padding: 1em;
+    border: none;
+    border-top: 1px solid rgba(34, 36, 38, .1);
+    box-shadow: none;
+    background-color: #fff;
+}
+
+.card-img-top {
+    display: block;
+    width: 100%;
+    height: auto;
+    min-height: 240px;
+    max-height: 240px;
+}
+
+.card-title {
+    font-size: 1.28571429em;
+    font-weight: 700;
+    line-height: 1.2857em;
+}
+
+.card-text {
+    clear: both;
+    margin-top: .5em;
+    color: rgba(0, 0, 0, .68);
+}
+
+.card-footer {
+    font-size: 1em;
+    position: static;
+    top: 0;
+    left: 0;
+    max-width: 100%;
+    padding: .75em 1em;
+    color: rgba(0, 0, 0, .4);
+    border-top: 1px solid rgba(0, 0, 0, .05) !important;
+    background: #fff;
+}
+
+.card-inverse .btn {
+    border: 1px solid rgba(0, 0, 0, .05);
+}
+
+.profile {
+    position: absolute;
+    top: -12px;
+    display: inline-block;
+    overflow: hidden;
+    box-sizing: border-box;
+    width: 25px;
+    height: 25px;
+    margin: 0;
+    border: 1px solid #fff;
+    border-radius: 50%;
+}
+
+.profile-avatar {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.profile-inline {
+    position: relative;
+    top: 0;
+    display: inline-block;
+}
+
+.profile-inline ~ .card-title {
+    display: inline-block;
+    margin-left: 4px;
+    vertical-align: top;
+}
+
+.text-bold {
+    font-weight: 700;
+}
+
+.meta {
+    font-size: 1em;
+    color: rgba(0, 0, 0, .4);
+}
+
+.meta a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, .4);
+}
+
+.meta a:hover {
+    color: rgba(0, 0, 0, .87);
+}
+
+.float-left
+{
+    float: left;
+}
+
+.float-right
+{
+    float: right;
+}
+
+.room-types-title{
+    margin-bottom: 10px;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+.text-muted{
+    color:#999;
+}
+
+.ul-padding-start15{
+    -webkit-padding-start: 15px ;
+}
+
+.scubaya-tariff-options {
+    margin-left: 40px;
+    margin-bottom: 20px;
+    position: relative;
+    margin-top: -6px;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.05);
+    -moz-box-shadow: 25px 23px 26px -17px rgba(204,204,204,1);
+    box-shadow: 0 1px 1px rgba(0,0,0,.05);
+    display: none;
+}
+
+.scubaya-tariff-options:before {
+    content: "";
+    border-bottom: 2px solid #48BBD2;
+    margin-top: -15px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 16px;
+    margin-left: -17px;
+    height: 100%;
+    border-left: 2px solid #48BBD2;
+}
+
+.show-more-options{
+    padding: 4px;
+    margin-top: 12px;
+    background-color: #e6e6e6;
+}
+
+#hotel-details-section .img-responsive{
+    position: relative;
+    float: left;
+    width:  300px;
+    height: 200px;
+    background-position: 50% 50%;
+    background-repeat:   no-repeat;
+    background-size:     cover;
+}

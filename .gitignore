@@ -1,0 +1,27 @@
+/node_modules
+
+# Public
+/public/hot
+/public/storage
+/public/.htaccess
+/public/assets/images/scubaya
+
+# Storage
+/storage/*.key
+/storage/logs/laravel.log
+
+# Vendor
+/vendor
+
+# Hidden files
+/.idea
+/.vagrant
+.env
+
+# Homestead
+Homestead.json
+Homestead.yaml
+npm-debug.log
+
+# Routes
+/routes/web.php
